@@ -1,4 +1,4 @@
-package com.api.nexus.model;
+package com.api.nexus.pagination;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -15,6 +15,6 @@ public class ProductPageableQuery implements PageableQuery {
         this.page = 0;
         this.itemsByPage = 10;
         this.orderBy = "id";
-        this.inOrder = "ASC";
+        this.inOrder = "DESC";
     }
 }
